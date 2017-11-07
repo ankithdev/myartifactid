@@ -2,7 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.newproject</groupId>
   <artifactId>myartifactid</artifactId>
+<<<<<<< HEAD
   <version>1.0.2-SNAPSHOT</version>
+=======
+  <version>1.0.2</version>
+>>>>>>> a5a973468d379eb725468b076db8762412f8a98c
   <name>TestApp</name>
   <description>This is a test app.</description>
   <scm>
@@ -50,7 +54,10 @@
       <releaseProfiles>releases</releaseProfiles>
    </configuration>
 </plugin>
+<<<<<<< HEAD
 
+=======
+>>>>>>> a5a973468d379eb725468b076db8762412f8a98c
 		</plugins>
 	
 	</build>
