@@ -2,9 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.newproject</groupId>
   <artifactId>myartifactid</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <name>TestApp</name>
   <description>This is a test app.</description>
+  <scm>
+   <connection>scm:git:https://github.com/ankithdev/myartifactid.git</connection>
+   <url>http://github.com/ankithdev/myartifactid</url>
+   <developerConnection>scm:git:https://github.com/ankithdev/myartifactid.git</developerConnection>
+</scm>
   <build>
 		<plugins>
 			<plugin>
@@ -33,7 +38,16 @@
 					</execution>
 				</executions>
 			</plugin>
-		
+		<plugin>
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-release-plugin</artifactId>
+   <version>2.4.2</version>
+   <configuration>
+      <tagNameFormat>v@{project.version}</tagNameFormat>
+      <autoVersionSubmodules>true</autoVersionSubmodules>
+      <releaseProfiles>releases</releaseProfiles>
+   </configuration>
+</plugin>
 
 		</plugins>
 	</build>
