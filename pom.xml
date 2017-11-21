@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.newproject</groupId>
   <artifactId>myartifactid</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <name>TestApp</name>
   <description>This is a test app.</description>
   <scm>
